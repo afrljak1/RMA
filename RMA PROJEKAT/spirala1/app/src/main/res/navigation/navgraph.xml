@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/bottom_nav"
+    app:startDestination="@id/homeItem">
+
+    <fragment
+        android:id="@+id/homeItem"
+        android:name="ba.etf.rma23.projekat.data.repositories.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/gameDetailsItem"
+        android:name="ba.etf.rma23.projekat.data.repositories.GameDetailsFragment"
+        android:label="GameDetailsFragment" />
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="ba.etf.rma23.projekat.data.repositories.ReviewFragment"
+        android:label="ReviewFragment" />
+</navigation>
